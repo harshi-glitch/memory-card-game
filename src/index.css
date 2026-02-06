@@ -50,9 +50,9 @@ body {
 .stats {
   display: flex;
   gap: 30px;
+  justify-content: center;
+  width: 100%;
 }
-
-
 
 
 
@@ -175,13 +175,13 @@ body {
   border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
-.card.flipped.card-front {
+.card.flipped .card-front {
   opacity: 0;
   pointer-events: none;
   transform: scale(0.9);
 }
 
-.card.flipped.card-back {
+.card.flipped .card-back {
   opacity: 1;
 }
 
@@ -189,7 +189,7 @@ body {
   pointer-events: none;
 }
 
-.card.matched.card-back {
+.card.matched .card-back {
   background: rgba(126, 211, 33, 0.2);
   box-shadow: 0 0 20px rgba(126, 211, 33, 0.4);
   border: 2px solid rgba(126, 211, 33, 0.5);
