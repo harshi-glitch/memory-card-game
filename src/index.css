@@ -54,14 +54,6 @@ body {
   width: 100%;
 }
 
-
-
-
-
-
-
-
-
 .stat-label {
   font-size: 0.9rem;
   color: #a1a1aa;
@@ -88,25 +80,6 @@ body {
   transition: transform 0.2s, box-shadow 0.2s;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 @keyframes slideDown {
   from {
@@ -199,36 +172,6 @@ body {
   transform: scale(1.05);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* done */
-
 @media(max-width:480px) {
   .game-header{
     padding: 20px;
@@ -247,5 +190,3 @@ body {
     font-size: 2.5rem;
   }
 }
-
-
